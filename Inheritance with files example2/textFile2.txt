@@ -1,0 +1,100 @@
+1
+Nathan
+Park
+123 asd
+123 123 1234
+5
+yes
+yes
+1
+no
+2
+coco
+lee
+123 asd
+123 123 1234
+10
+no
+no
+0
+yes
+3
+keke
+smith
+123 asd
+123 123 1234
+7
+no
+no
+0
+no
+4
+momo
+koko
+123
+asd
+8
+yes
+no
+0
+yes
+5
+jeje
+qwqw
+123 qwe
+123 123 1234
+15
+yes
+no
+0
+yes
+6
+jeje
+keke
+123 qwer
+123 123 1234
+20
+yes
+yes
+3
+yes
+7
+jojo
+meme
+123 qwer
+123 123 1234
+1
+yes
+yes
+2
+yes
+8
+meme
+jeje
+123
+123 123 1234
+3
+no
+no
+0
+no
+9
+hehe
+hehee
+123 qwer
+123 123 1234
+6
+yes
+yes
+1
+yes
+10
+q
+w
+1 q
+123 123 1234
+6
+no
+no
+0
+no

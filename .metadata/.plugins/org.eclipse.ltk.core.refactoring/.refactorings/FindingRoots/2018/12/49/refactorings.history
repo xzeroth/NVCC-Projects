@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ExampleGUI2.java&apos; to &apos;prime2/src/prime2&apos;&#x0A;- Original project: &apos;FindingRoots&apos;&#x0A;- Destination element: &apos;prime2/src/prime2&apos;&#x0A;- Original element: &apos;ExampleGUI2.java&apos;" description="Copy compilation unit" destination="=prime2/src&lt;prime2" element1="/src&lt;{ExampleGUI2.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1544123837085" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,71 @@
+import java.io.PrintWriter;
+import java.util.Scanner;
+
+public class studentWithFiles extends student{
+	
+	public studentWithFiles() {
+		super();
+	}
+	
+	public void readInputFile(Scanner input) {
+		String sInput;
+		int iInput;
+		double dInput;
+		
+		sInput = input.nextLine();
+		setfName(sInput);
+		
+		sInput = input.nextLine();
+		setlName(sInput);
+		
+		sInput = input.nextLine();
+		setAddress(sInput);
+		
+		sInput = input.nextLine();
+		setPhoneNumber(sInput);
+		
+		iInput = input.nextInt();
+		setcEnrolled(iInput);
+		
+		sInput = input.nextLine();
+		setqInstate(checkBool(sInput));
+		
+		sInput = input.nextLine();
+		setCampusFood(checkBool(sInput));
+		
+		input.next();
+		
+		sInput = input.nextLine();
+		dInput = Double.parseDouble(sInput);
+		setMeal(dInput);
+		
+		sInput = input.nextLine();
+		setHealthCare(checkBool(sInput));
+		
+		sInput = input.nextLine();
+		setLateFee(checkBool(sInput));
+		
+	}
+	
+	public void writeOutputFile(PrintWriter textStream) {
+		textStream.println("First name: " + super.getfName());
+		textStream.println("Last name: " + super.getlName());
+		textStream.println("Address: " + super.getAddress());
+		textStream.println("Phone number " + super.getPhoneNumber());
+		textStream.println("Credits: " + super.getcEnrolled());
+		textStream.println("Instate: " + super.isqInstate());
+		textStream.println("Meal Choice: " + super.getMealChoice());
+		textStream.println("Health Care: " + super.isHealthCare());
+		textStream.println("Late Fee: " + super.isLateFee());
+	}
+	
+	public boolean checkBool(String x) {
+		if(x.equalsIgnoreCase("yes")) {
+			return true;
+		}else if (x.equalsIgnoreCase("no")) {
+			return false;
+		}
+		return false;
+	}
+
+}

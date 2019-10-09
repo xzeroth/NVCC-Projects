@@ -1,0 +1,31 @@
+First name: nathan
+Last name: park
+Address: 123 qwer
+Phone number 1231231234
+Credits: 5
+Instate: true
+Meal Choice: 0
+Health Care: false
+Late Fee: false
+First name: jamie
+Last name: park
+Address: 123 qwer
+Phone number 1231231234
+Credits: 14
+Instate: false
+Meal Choice: 1
+Health Care: false
+Late Fee: false
+                           UNIVERSITY OF COMPUTERS
+NUMBER OF STUDENTS  2
+INSTATE             1
+OUT OF STATE        1
+ 
+MEAL PLAN      STUFF-YOUR-FACE               1.0        $4,999.00
+               I-CAN'T-STAND-THIS-FOOD       0.0        $0.00
+               I'M-ON-A-DIET                 0.0        $0.00
+                                             TOTAL      $4,999.00
+ 
+TUITION                  $4,082.50
+INCEDENTAL               $350.00
+HEALTH CARE              $455.00             TOTAL      $9,886.50

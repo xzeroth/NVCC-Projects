@@ -1,0 +1,32 @@
+
+public class TwoSum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		[2, 7, 11, 15], target = 9,
+		int[] test = {2,7,11,15};
+		int target = 9;
+
+		int[] tot = twoSum(test, target);
+		
+		for(int x : tot) {
+			System.out.println(x);
+		}
+	}
+
+	 public static int[] twoSum(int[] nums, int target) {
+		 	int[] ans = {0,0};
+	        for(int i = 0 ; i < nums.length ; i++) {
+	        	if(nums[i] < target) {
+	        		for(int j = i+1 ; j < nums.length ; j++) {
+	        			if( nums[j] == target - nums[i]) {
+	        				ans[0] = nums[i];
+	        				ans[1] = nums[j];
+	        				return ans;
+	        			}
+	        		}
+	        	}
+	        }
+	        return ans;
+	    }
+}

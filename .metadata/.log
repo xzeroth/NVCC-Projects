@@ -1,0 +1,18 @@
+!SESSION 2019-07-19 00:46:50.805 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=11.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/gunpark/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/Users/gunpark/eclipse-workspace/ -product org.eclipse.epp.package.java.product -keyring /Users/gunpark/.eclipse_keyring
+
+This is a continuation of log file /Users/gunpark/eclipse-workspace/.metadata/.bak_0.log
+Created Time: 2019-07-19 00:47:02.341
+
+!ENTRY org.eclipse.core.net 1 0 2019-07-19 00:47:02.341
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2019-07-19 00:47:07.490
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2019-07-19 00:47:07.490
+!MESSAGE Could not load repository template extension contributed by 'org.eclipse.mylyn.bugzilla.ide' with connectorKind 'bugzilla'
